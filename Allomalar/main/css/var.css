@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+body {
+  background-image: url("../media/bg-khiva.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.mh-100 {
+  min-height: 100vh;
+}
+.flex {
+  display: flex;
+}
+.row-reverse {
+  flex-direction: row-reverse;
+}
+.jc-c {
+  justify-content: center;
+}
+.jc-sp-b {
+  justify-content: space-between;
+}
+.ai-c {
+  align-items: center;
+}
+.fl-d-col {
+  flex-direction: column;
+}
+.fl-wrap {
+  flex-wrap: wrap;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
