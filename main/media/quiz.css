@@ -13,7 +13,7 @@ img {
   height: 100%;
 }
 #quizQn {
-  word-spacing: 0.7rem;
+  font-size: 2rem;
 }
 #quizAns {
   display: flex;
@@ -60,7 +60,6 @@ img {
   text-align: center;
   cursor: pointer;
   padding: 1.5rem;
-  font-size: 1.5rem;
   text-shadow: 1px 1px #000;
 }
 .btns:hover {
@@ -69,6 +68,9 @@ img {
 }
 .btns:not(:last-child) {
   margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media only screen and (max-width: 768px) {
   #quizWrap {
@@ -77,9 +79,9 @@ img {
   }
   img {
     width: 100%;
-    height: 100%;
   }
   #quizAns {
+    height: 100%;
     width: 100%;
     background: linear-gradient(
       to bottom,
