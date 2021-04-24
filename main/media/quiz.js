@@ -186,7 +186,7 @@ var quiz = {
       if (quiz.now < quiz.data.length) { quiz.draw(); } 
       else {
         quiz.hQn.innerHTML = `Siz ${quiz.data.length} savoldan ${quiz.score}tasiga to'g'ri javob berdingiz.`;
-        quiz.hQn.style = "font-weight: 600; font-size: 5rem; color: #cdcdcd; text-align: center; background-color: #00000061; text-shadow: 1px 1px #000; padding: 0.5rem; margin-bottom: 1rem;";
+        quiz.hQn.style = "font-weight: 600; color: #cdcdcd; text-align: center; background-color: #00000061; text-shadow: 1px 1px #000; padding: 0.5rem; margin-bottom: 1rem;";
         quiz.hWrap.style = "flex-direction: column;";
         quiz.hAns.innerHTML = "<a class='btns' href='../../index.html'>Orqaga</a><button class='btns' type='button' onclick='location.reload()'>Qayta ishlash</button>";
         quiz.hAns.style = "background: none; flex-direction: row; justify-content: space-between; width: 100%; padding: 0;"
